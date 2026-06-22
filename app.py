@@ -29,7 +29,7 @@ st.markdown("""
 
 # --- SIDEBAR: LOGO & NAVIGATION ---
 if os.path.exists("assets/logo.png"):
-    st.sidebar.image("assets/logo.png", use_container_width=True)
+    st.sidebar.image("assets/logo.png", use_column_width=True)
 
 st.sidebar.title("⚡ Navigation")
 
